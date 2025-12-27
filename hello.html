@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRISON BREAK SITE</title>
+    <link rel="stylesheet" href="hello.css">
+</head>
+<body>
+    <form id="team-member-form">
+
+       <div class="container">
+        <h1 class="H1"><strong> ADD TEAM MEMBER </strong></h1>
+    <!--mon 1er titre-->
+    
+         <p class="P1"><strong><em> add team member</em></strong></p>
+    <!--paragraphe-->
+    <label for=" Name">NAME :</label>
+    <input type="name" name="NAME" id="required" placeholder="ex: Pierre MARCEAU" required="required" />
+    
+        <label for="Email"> Email adress : </label>
+        <input type="Email" name="Email" id="required" placeholder="ex: carlniels@gmail.com" required="required"/>
+
+        <label for="username"> USERNAME :</label>
+        <input type="username" name="username" id="required" placeholder="ex : Boone" required="required">
+        
+        <div class="password-box">
+               <label for="password">password</label>
+                <input type="password" id="password" placeholder="Mot de passe" required>
+                <button type="button" onclick="togglePassword()">👁</button>
+            </div>
+
+        <input type="checkbox" checked="checked" did="terms" name="terms">
+         <label for="terms"> I agree to the terms and conditions </label>
+
+     <button style="color: white;" class="ADD"><strong> ADD </strong></button>
+     <button class="B1" onclick="backtolist()"><strong>
+         <a href="pages/team.html"> Back to list </a>
+         </strong>
+        </button>
+    </form>
+ </div>
+   <script src="hello.js"></script>
+</body>
+</html>
